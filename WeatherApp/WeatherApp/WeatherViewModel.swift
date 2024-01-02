@@ -7,8 +7,6 @@
 
 import Foundation
 
-// http://api.openweathermap.org/data/2.5/weather?q=barcelona&appid=71c3e78149e90edcb26b5c8bf57708fa&units=metric&lang=es
-
 final class WeatherViewModel: ObservableObject {
     @Published var weatherModel: WeatherModel = .empty
     private let weatherModelMapper: WeatherModelMapper = WeatherModelMapper()

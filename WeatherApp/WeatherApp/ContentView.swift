@@ -69,7 +69,7 @@ struct ContentView: View {
             LinearGradient(colors: [.blue, .purple], startPoint: .topLeading, endPoint: .bottomTrailing)
         )
         .task {
-            await weatherViewModel.getWeather(city: "Barcelona")
+            await weatherViewModel.getWeather(city: "O Carballiño")
         }
     }
 }
